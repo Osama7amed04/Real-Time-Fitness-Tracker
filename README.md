@@ -7,12 +7,18 @@ Get pumped for the **Real-Time Fitness Tracker**—a game-changing app built wit
 - **Modular & Dedicated Exercise Logic**: Exercises are cleanly separated into dedicated scripts to ensure absolute precision.
 - **Strict Form & Half-Rep Detection**: The AI enforces strict range-of-motion. “Half-reps” or bad posture trigger bold visual warnings and a distinct "wrong.wav" error sound.
 - **Comprehensive Muscle Group Support**:
-  - **Chest (صدر)**: Fhat, Incline, and Decline Bench Presses, plus Push-Ups.
+  - **Chest (صدر)**: Flat, Incline, and Decline Bench Presses, plus Push-Ups.
+    <br><img src="exercises/chest/بنج.png" height="250" /> <img src="exercises/push_up/IMG_20260414_205813.png" height="250" />
   - **Back (ظهر)**: Pull-Ups, Rows, Deadlifts.
-  - **Shoulders (كتف)+*: Front Raise, Lateral Raise, Rear Delt Fly.
-  - **Arms (الذراع)+*: Biceps Curls, Tricep Extensions, Forearm Curls.
-  - **Legs (حدٌ)**: Front Squats, Hamstring/Back Curls, Lunges, Calf Raises.
+    <br><img src="exercises/back/IMG_20260414_205320.png" height="250" />
+  - **Shoulders (كتف)**: Front Raise, Lateral Raise, Rear Delt Fly.
+    <br><img src="exercises/shoulder/1776192744309_edit_1016935435654099.png" height="250" />
+  - **Arms (الذراع)**: Biceps Curls, Tricep Extensions, Forearm Curls.
+    <br><img src="exercises/arm/IMG_20260414_205446.png" height="250" /> <img src="exercises/arm/IMG_20260414_205641_edit_1017130450192098.png" height="250" /> <img src="exercises/arm/1776193044612_edit_1017176992590101.png" height="250" />
+  - **Legs (رجل)**: Front Squats, Hamstring/Back Curls, Lunges, Calf Raises.
+    <br><img src="exercises/leg/IMG_20260414_205421.png" height="250" />
   - **Core (بطن/بلانك)**: Sit-ups, Planks.
+    <br><img src="exercises/abs/IMG_20260414_205835.png" height="250" />
 - **Audio Hype**: Hear reps counted out loud ("1", "2", "3"...) in real-time.
 - **Live Stats**: Joint angles, rep counts, and real-time exercise stage (e.g., ’going up’, ’going down’) flash on-screen.
 - **Fitness Chatbot Sidekick**: Powered by Google’s Gemini AI to answer all your workout questions.
@@ -47,7 +53,6 @@ Exercises are deeply organized by targeted muscle groups under the `exercises/` 
 - **OpenCV**: Delivers slick video processing and visuals.
 - **MediaPipe**: Rocks cutting-edge pose estimation.
 - **NumPy**: Crunches numbers for pinpoint angle calculations.
-- **Google Gemini AI**: Powers the smart chatbot.
 
 3#  Get Started
 
@@ -81,7 +86,5 @@ Pip install opencv-python mediapipe numpy google-genai python-dotenv
 4. **Chat with Your Fitness Guru**:
    python chatbot.py
 
-##  License
-This project is dual-licensed under the MIT License and the Apache License 2.0.
 
 **Time to sweat, track, and conquer!** 
