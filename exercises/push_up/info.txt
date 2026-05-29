@@ -1,2 +1,5 @@
 ﻿Push-up Exercises (تمارين الضغط):
-- Push-up (ضغط)
+
+1. Push-up (ضغط):
+   - English: A fundamental bodyweight exercise targeting the chest, shoulders, and triceps. Ensure your body is straight and lower yourself until your chest nears the floor before pushing back up.
+   - Arabic: تمرين أساسي بوزن الجسم يستهدف الصدر والكتفين والترايسبس. حافظ على استقامة جسمك وانزل حتى يقترب صدرك من الأرض ثم ادفع جسمك للأعلى.

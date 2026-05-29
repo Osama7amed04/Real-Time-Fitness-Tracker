@@ -1,4 +1,13 @@
 ﻿Arm Exercises (تمارين اليد / الذراع):
-- Biceps Curl (بايسبس)
-- Triceps Extension (ترايسبس)
-- Forearm (سواعد)
+
+1. Biceps Curl (بايسبس):
+   - English: Targets the biceps brachii. Stand straight with a dumbbell in each hand, curl the weights towards your shoulders, and lower them back down with control.
+   - Arabic: يستهدف عضلة البايسبس. قف مستقيماً مع حمل الأوزان، وارفعها نحو كتفيك ثم اخفضها بتحكم.
+
+2. Triceps Extension (ترايسبس):
+   - English: Works the triceps muscles on the back of the upper arm. Extend your arms to lift the weight overhead or push down, focusing on straightening the elbow.
+   - Arabic: يركز على عضلة الترايسبس في الجزء الخلفي من الذراع. قم بمد ذراعك لرفع الوزن أو دفعه مع التركيز على استقامة المرفق.
+
+3. Forearm (سواعد):
+   - English: Strengthens the lower arm and grip. Rest your forearms on your thighs or a bench and curl your wrists upward and downward.
+   - Arabic: يقوي السواعد وقبضة اليد. ضع ساعديك على فخذيك أو مقعد وقم بثني معصميك للأعلى والأسفل.

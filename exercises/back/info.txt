@@ -1,4 +1,13 @@
 ﻿Back Exercises (تمارين الظهر):
-- Pull Up (عقلة)
-- Rows (تجديف)
-- Deadlift (رفعة ميتة)
+
+1. Pull Up (عقلة):
+   - English: An upper-body compound pulling exercise. Hang from a bar with palms facing away, and pull your body up until your chin clears the bar, focusing on the lats.
+   - Arabic: تمرين سحب مركب للجزء العلوي من الجسم. تعلق بعارضة واسحب جسمك لأعلى حتى يتجاوز ذقنك العارضة، مع التركيز على عضلات الظهر.
+
+2. Rows (تجديف):
+   - English: Targets the mid-back and lats. Bend over with a straight back and pull the weight up towards your torso, squeezing your shoulder blades together.
+   - Arabic: يستهدف منتصف الظهر وعضلات المجنص. انحنِ للأمام مع ظهر مستقيم واسحب الوزن نحو جذعك.
+
+3. Deadlift (رفعة ميتة):
+   - English: A full-body movement focusing on the posterior chain. Lift a loaded bar off the ground to the level of the hips, keeping your back straight and relying on your hips and legs.
+   - Arabic: حركة شاملة للجسم تركز على السلسلة الخلفية. ارفع الوزن من الأرض إلى مستوى الوركين، مع الحفاظ على استقامة الظهر.
