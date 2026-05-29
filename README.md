@@ -1,2 +1,87 @@
-# Real-Time-Fitness-Tracker
+#  Real-Time AI Fitness Tracker: Crush Your Workouts with AI! 
+
 Get pumped for the **Real-Time Fitness Tracker**—a game-changing app built with Python, MediaPipe, and OpenCV that tracks a huge variety of exercises with laser-sharp accuracy! This isn't just about counting reps—it's about nailing perfect form, getting hyped with audio feedback.
+
+##  Why This Project Is a Total Game-Changer
+
+- **Modular & Dedicated Exercise Logic**: Exercises are cleanly separated into dedicated scripts to ensure absolute precision.
+- **Strict Form & Half-Rep Detection**: The AI enforces strict range-of-motion. “Half-reps” or bad posture trigger bold visual warnings and a distinct "wrong.wav" error sound.
+- **Comprehensive Muscle Group Support**:
+  - **Chest (صدر)**: Fhat, Incline, and Decline Bench Presses, plus Push-Ups.
+  - **Back (ظهر)**: Pull-Ups, Rows, Deadlifts.
+  - **Shoulders (كتف)+*: Front Raise, Lateral Raise, Rear Delt Fly.
+  - **Arms (الذراع)+*: Biceps Curls, Tricep Extensions, Forearm Curls.
+  - **Legs (حدٌ)**: Front Squats, Hamstring/Back Curls, Lunges, Calf Raises.
+  - **Core (بطن/بلانك)**: Sit-ups, Planks.
+- **Audio Hype**: Hear reps counted out loud ("1", "2", "3"...) in real-time.
+- **Live Stats**: Joint angles, rep counts, and real-time exercise stage (e.g., ’going up’, ’going down’) flash on-screen.
+- **Fitness Chatbot Sidekick**: Powered by Google’s Gemini AI to answer all your workout questions.
+
+3#  New Clean Project Structure
+
+Exercises are deeply organized by targeted muscle groups under the `exercises/` folder!
+
+```
+|-- exercises/
+|   |-- abs/          (Sit-ups - تمارين البطن)
+|   |-- arm/          (Biceps, Triceps, Forearms - تمارين الرداع)
+|   |-- back/         (Pull-ups, Rows, Deadlifts - تمارين الظهر)
+|   |-- chest/        (Flat, Incline, Decline, Push-ups - تمارين الصدر)
+|   |-- leg/          (Front Squats, Curls, Calf Raises, Lunges - تمارين الأرجل)
+|   |-- plank/        (Planks - بلانك)
+|   |-- push_up/      (Push-ups - ضغ۷)
+|   |-- shoulder/     (Front/Lateral Raises, Rear Delts - تمارين الكتف)
+|   |-- more/         (Archive of original/duplicate scripts - التمارين المكررة)
+|-- audio/
+|   |-- 1.wav, 2.wav... 
+|   |-- wrong.wav
+|-- .env
+|-- requirements.txt
+|-- README.md
+```
+*(Every folder has an `info.txt` file listing its exercises in English and Arabic!)*
+
+##  Tech Stack That Packs a Punch
+
+- **Python 3.8+**: The powerhouse behind the magic.
+- **OpenCV**: Delivers slick video processing and visuals.
+- **MediaPipe**: Rocks cutting-edge pose estimation.
+- **NumPy**: Crunches numbers for pinpoint angle calculations.
+- **Google Gemini AI**: Powers the smart chatbot.
+
+3#  Get Started
+
+:## 1. Prerequisites 
+- Camera (Webcam or external)
+- Audio files in the `audio/` folder (numbers + `wrong.wav`)
+- Create a  `.env` file with `GOOGLE_API_KEY=your-api-key` for the AI Chatbot.
+
+### 2. Install Dependencies
+
+Pip install opencv-python mediapipe numpy google-genai python-dotenv
+
+
+##  How to Use It
+
+1. **Activate the Virtual Environment** (if you have one):
+   powershell .\.venv\Scripts\Activate.ps1
+
+2. **Launch an Exercise**:
+   Pick your workout and run the script straight from the `exercises` directory:
+   python exercises/shoulder/lateral_raise.py
+
+   Or for Squats:
+   python exercises/leg/front_squat.py
+    
+3. **Crush Your Set**:
+   - Make sure your full body (or at least the target joints) is visible in the camera frame.
+   - The AI measures your angles dynamically! If you cheat, it will yell at you. 
+   - Press `q` to quit your session.
+
+4. **Chat with Your Fitness Guru**:
+   python chatbot.py
+
+##  License
+This project is dual-licensed under the MIT License and the Apache License 2.0.
+
+**Time to sweat, track, and conquer!** 
